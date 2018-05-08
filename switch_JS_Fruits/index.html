@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Benefits of Fruits|| Homepage</title>
+	<link rel="shortcut icon" type="images/jpeg" href="images/fruit_icon.jpeg">
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js"></script>
+
+	<style type="text/css" media="screen">
+		/* Important styles */
+
+		#toggle {
+	  		display: block;
+	  		width: 28px;
+	  		height: 30px;
+	  		margin: 30px auto 10px;
+	  		float: right;
+	  		margin-right: 7%;
+			}
+
+		#toggle span:after,
+		#toggle span:before {
+	  		content: "";
+	  		position: absolute;
+	  		left: 0;
+	  		top: -9px;
+			}
+		#toggle span:after{
+	  		top: 9px;
+			}
+		#toggle span {
+	  		position: relative;
+	  		display: block;
+			}
+
+		#toggle span,
+		#toggle span:after,
+		#toggle span:before {
+	  		width: 100%;
+	  		height: 5px;
+	  		background-color: #888;
+	  		transition: all 0.3s;
+	  		backface-visibility: hidden;
+	  		border-radius: 2px;
+			}		
+
+		/* on activation */
+		#toggle.on span {
+			background-color: transparent;
+			}
+		#toggle.on span:before {
+		  	transform: rotate(45deg) translate(5px, 5px);
+			}
+		#toggle.on span:after {
+		  	transform: rotate(-45deg) translate(7px, -8px);
+			}
+		#toggle.on + #menu {
+			opacity: 1;
+			visibility: visible;
+			}
+
+		/* menu appearance*/
+		#menu {
+			position: relative;
+			color: #999;
+			width: 200px;
+			padding: 10px;
+			margin: auto;
+			font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
+			text-align: center;
+			border-radius: 4px;
+			background: transparent;
+			box-shadow: 0 1px 8px rgba(0,0,0,0.05);
+			/* just for this demo */
+			opacity: 0;
+			visibility: hidden;
+			transition: opacity .4s;
+
+			float: right;
+			margin-top: 5%;
+			margin-right: 0%;
+			font-size: 24px;
+		    }
+
+		  
+		ul, li, li a {
+			list-style: none;
+			display: block;
+			margin: 0;
+			padding: 0;
+			}
+		li a {
+		    padding: 5px;
+		    color: #888;
+		    text-decoration: none;
+		    transition: all .2s;
+		    }
+		li a:hover,
+		li a:focus {
+		    color: #fff;
+		    font-weight: bold;
+		    font-size: 24px;
+		    }
+
+
+
+		/* demo styles */
+		body {
+			margin-top: 3em; 
+			background: #eee; 
+			color: #555; 
+			font-family: "Open Sans", "Segoe UI", Helvetica, Arial, sans-serif;
+			background-image: url('images/fruits.jpg');
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+			background-size: 100% 100%;
+			background-position: center; 
+		    }
+		p, p a { 
+		    font-size: 12px;
+		    text-align: center; 
+		    color: #888; 
+		    }
+
+		h1 {
+			padding-top: 10%;
+			padding-left: 3%;
+			color: #888;
+			font-size: 50px;
+			}
+
+		footer{
+			padding-top: 380px;
+			padding-bottom: 5px;
+			text-align: center;
+			color: #888;
+		    }
+	</style>
+</head>
+<body>
+
+	<!--NAVBAR start-->
+	<a href="#menu" id="toggle"><span></span></a>
+
+	<div id="menu">
+	  <ul>
+	    <li><a href="index.html">Home</a></li>
+	    <li><a href="home.html">Fruits</a></li>
+	    <li><a href="contact.html">Contact</a></li>
+	  </ul>
+	</div>
+
+	<!--NAVBAR ende-->
+
+	<h1>Benefits of Fruits</h1>
+	
+<!--##################################################################
+	# 	USE this code for JS, 										 # 
+	#               just as help to write the code for Kiwi Tables   #								
+	# 																 #
+	# 																 #
+	##################################################################
+	
+	<table style='width:75%'> 
+		<caption><h2>Nutritional value per 100 g:</h2>
+		</caption> 
+		<tr> 
+			<th>  </th>
+			<th>Content</th> 
+			<th>Quantity</th>
+			<th>(%Daily Value)</th>
+		</tr> 
+		<tr> 
+			<td><b>Energy</b></td> 
+			<td>   </td> 
+			<td>255 kJ (61 kcal)</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td><b>Carbohydrates</b></td>
+			<td>   </td>
+			<td>15.8 g</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>   </td>
+			<td> Sugars  </td>
+			<td>12.3 g</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>   </td>
+			<td>  Dietary fiber </td>
+			<td>1.4 g</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td><b>Fat</b></td>
+			<td>   </td>
+			<td>0.28 g</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td><b>Protein</b></td>
+			<td>   </td>
+			<td>1.02 g</td>
+			<td></td>
+		</tr>
+		<tr>
+			<td><b>Vitamins</b></td>
+			<td></td>
+			<td>   </td>
+			<td></td>
+		</tr>
+		<tr>
+			<td>  </td>
+			<td>  Vitamin A equiv.lutein zeaxanthin </td>
+			<td>24 μg</td>
+			<td> </td>
+		</tr>
+		<tr>
+			<td>   </td>
+			<td>  Thiamine (B<sub>1</sub>) </td>
+			<td>0 mg</td>
+			<td>(0%)</td>
+		</tr>
+		<tr>
+			<td>   </td>
+			<td>  Riboflavin (B<sub>2</sub>) </td>
+			<td>0.074 mg</td>
+			<td>(6%)</td>
+		</tr>
+		<tr>
+			<td>   </td>
+			<td>  Niacin (B<sub>3</sub>) </td>
+			<td>0.231 mg</td>
+			<td>(2%)</td>
+		</tr>
+		<tr>
+			<td>   </td>
+			<td>  Pantothenic acid (B<sub>5</sub>) </td>
+			<td>0.12 mg</td>
+			<td>(2%)</td>
+		</tr>
+		<tr>
+			<td>   </td>
+			<td>  Vitamin B<sub>6</sub> </td>
+			<td>0.079 mg</td>
+			<td>(6%)</td>
+		</tr>
+		<tr>
+			<td>   </td>
+			<td>  Folate (B<sub>9</sub>) </td>
+			<td>31 μg</td>
+			<td>(8%)</td>
+		</tr>
+		<tr>
+			<td>   </td>
+			<td>  Vitamin B<sub>12</sub> </td>
+			<td>0.08 μg</td>
+			<td>(3%)</td>
+		</tr>
+		<tr>
+			<td>   </td>
+			<td>  Choline </td>
+			<td>1.9 mg</td>
+			<td>(0%)</td>
+		</tr>
+		<tr>
+			<td>   </td>
+			<td>  Vitamin C </td>
+			<td>161.3 mg</td>
+			<td>(194%)</td>
+		</tr>
+		<tr>
+			<td>   </td>
+			<td>  Vitamin E </td>
+			<td>1.4 mg</td>
+			<td>(9%)</td>
+		</tr>
+		<tr>
+			<td>   </td>
+			<td>  Vitamin K </td>
+			<td>6.1 μg</td>
+			<td>(6%)</td>
+		</tr>
+
+		<tr>
+			<td><b>Minerals</b></td>
+			<td></td>
+			<td>   </td>
+			<td>  </td>
+		</tr>
+		<tr>
+			<td>   </td>
+			<td>  Calcium </td>
+			<td>17 mg</td>
+			<td>(2%)</td>
+		</tr>
+		<tr>
+			<td>   </td>
+			<td>  Copper </td>
+			<td>0.151 mg</td>
+			<td>(8%)</td>
+		</tr>
+		<tr>
+			<td>   </td>
+			<td>  Iron </td>
+			<td>0.21 mg</td>
+			<td>(2%)</td>
+		</tr>
+		<tr>
+			<td>   </td>
+			<td>  Magnesium </td>
+			<td>Magnesium</td>
+			<td>(3%)</td>
+		</tr>
+		<tr>
+			<td>   </td>
+			<td>  Phosphorus </td>
+			<td>25 mg</td>
+			<td>(4%)</td>
+		</tr>
+		<tr>
+			<td>   </td>
+			<td> Potassium </td>
+			<td>315 mg</td>
+			<td>(7%)</td>
+		</tr>
+		<tr>
+			<td>   </td>
+			<td> Selenium </td>
+			<td>0.4 μg</td>
+			<td>(1%)</td>
+		</tr>
+		<tr>
+			<td>   </td>
+			<td> Sodium </td>
+			<td>3 mg</td>
+			<td>(0%)</td>
+		</tr>
+		<tr>
+			<td>   </td>
+			<td> Zinc </td>
+			<td>0.08 mg</td>
+			<td>(1%)</td>
+		</tr>
+		<tr>
+			<td> <b>Other constituents</b>  </td>
+			<td>   </td>
+			<td>   </td>
+			<td>   </td>
+		</tr>
+		<tr>
+			<td>   </td>
+			<td> Water </td>
+			<td>82 g</td>
+			<td>   </td>
+		</tr>
+	</table>
+-->
+
+	
+	<script>
+	   var theToggle = document.getElementById('toggle');
+
+		// based on Todd Motto functions
+		// https://toddmotto.com/labs/reusable-js/
+
+		// hasClass
+		function hasClass(elem, className) {
+		  return new RegExp(' ' + className + ' ').test(' ' + elem.className + ' ');
+		}
+		// addClass
+		function addClass(elem, className) {
+		    if (!hasClass(elem, className)) {
+		      elem.className += ' ' + className;
+		    }
+		}
+		// removeClass
+		function removeClass(elem, className) {
+		  var newClass = ' ' + elem.className.replace( /[\t\r\n]/g, ' ') + ' ';
+		  if (hasClass(elem, className)) {
+		        while (newClass.indexOf(' ' + className + ' ') >= 0 ) {
+		            newClass = newClass.replace(' ' + className + ' ', ' ');
+		        }
+		        elem.className = newClass.replace(/^\s+|\s+$/g, '');
+		    }
+		}
+		// toggleClass
+		function toggleClass(elem, className) {
+		  var newClass = ' ' + elem.className.replace( /[\t\r\n]/g, " " ) + ' ';
+		    if (hasClass(elem, className)) {
+		        while (newClass.indexOf(" " + className + " ") >= 0 ) {
+		            newClass = newClass.replace( " " + className + " " , " " );
+		        }
+		        elem.className = newClass.replace(/^\s+|\s+$/g, '');
+		    } else {
+		        elem.className += ' ' + className;
+		    }
+		}
+
+		theToggle.onclick = function() {
+		   toggleClass(this, 'on');
+		   return false;
+		} 
+  	</script>
+
+	<footer>
+		<strong>&copy</strong>Copyright 2018 Dragan Obrádovity
+	</footer>
+</body>
+</html>
